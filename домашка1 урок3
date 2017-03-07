@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title></title>
+	<form name="registration" action="main.js" method="post">
+		<h2>Student name</h2>
+        <input type="text" name="username" placeholder="First Name"><input type="text" name="username" placeholder="Last Name" <size="30">
+				<h2>Birth Day</h2>
+			 <input type="text" name="birthday" placeholder="mm/dd/yyy">
+				  <br>
+				  <br>
+				<label for="Ginder"></label>
+		<h2>Ginder</h2>
+				<select name="Ginder">
+					<option value="Man">Man
+					</option>
+					<option value="Woman">Woman
+						</option>
+						<input>
+						<br>
+						<br>
+			<h2>Address</h2>
+						<input placeholder="City"placeholder="State/Province"<size="30">
+	 						<input placeholder="Street Address">
+	 						<br>
+	 						<br>
+	 					<input placeholder="City"!placeholder="State/Province"<size="30">
+	 					  <br>
+	 					  <br>
+					</option>
+				</select>
+      </fieldset>
+            <br>
+      			<br>
+      <textarea name="message" rows="8" cols="40"></textarea>
+						<br>
+      			<br>
+      <input type="checkbox" name="remember">Remember me
+      			<br>
+      			<br>
+      <input type="submit" name="submit" value="submit">
+</head>
+<body>
+
+</body>
+</html>
